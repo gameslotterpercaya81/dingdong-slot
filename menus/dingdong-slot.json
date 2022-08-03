@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dingdong-slot",
+        "command": "dingdong-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dingdong-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dingdong-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
